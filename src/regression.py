@@ -15,7 +15,7 @@ class RegressionResult:
     beta : float
        Estimated market sensitivity of the stock. It reprsents the expected change
        in stock return associated with a one-unit change in market return.
-    r_square : float
+    r_squared : float
        Proportion of variation in stock returns explained by market returns.
     p_value : float
        Two_sided p-calue for the hypothesis test that the regression slope is equal to zero
